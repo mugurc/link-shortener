@@ -1,0 +1,40 @@
+{
+  "name": "link-shortener",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "@vercel/edge": "^1.1.1",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "framer-motion": "^11.3.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.8.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-spring": "^9.7.3",
+    "shortid": "^2.2.16",
+    "ua-parser-js": "^1.0.38"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/shortid": "^0.0.32",
+    "@types/ua-parser-js": "^0.7.39",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
